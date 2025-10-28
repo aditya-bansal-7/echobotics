@@ -9,11 +9,11 @@ const HomePage = () => {
           height={2000}
           src="/images/dust.png"
           alt=""
-          className="absolute -z-1 h-screen w-screen object-contain "
+          className="absolute -z-1 h-full w-full object-cover "
         />
       </div>
 
-      <div className=" absolute -left-[150%] top-32 blur-[1000px]  bg-[#EC4E02] w-516 h-150 "></div>
+      <div className=" absolute -left-552 top-32 blur-[1000px]  bg-[#EC4E02] w-516 h-150 "></div>
       <div className="absolute font-Gilroy z-1 top-1/2 right-0 rotate-270 -translate-y-[200%]">
         <span className="font-bold">Echo</span>
         <span className="font-light">Botics</span>
