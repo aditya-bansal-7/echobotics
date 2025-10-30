@@ -1,4 +1,6 @@
 import Image from "next/image";
+import TrustedPartner from "./TrustedPartner";
+
 
 const HomePage = () => {
   return (
@@ -11,6 +13,10 @@ const HomePage = () => {
           alt=""
           className="absolute -z-1 h-full w-full object-cover "
         />
+      </div>
+
+      <div className="absolute w-screen bottom-0 left-0 right-0 translate-y-full">
+            <TrustedPartner />
       </div>
 
       <div className=" absolute -left-552 top-32 blur-[1000px]  bg-[#EC4E02] w-516 h-150 "></div>
@@ -39,7 +45,7 @@ const HomePage = () => {
                   d="M 50,50 m -35,0 a 35,35 0 1,1 70,0 a 35,35 0 1,1 -70,0"
                   fill="none"
                 />
-                <text font-size="6" letter-spacing="3" text-anchor="middle">
+                <text fontSize="6" letterSpacing="3" textAnchor="middle">
                   <textPath href="#circlePath" startOffset="0%">
                     SCROLL • SCROLL • SCROLL • SCROLL • SCROLL • SCROLL • SCROLL
                     • SCROLL • SCROLL • SCROLL • SCROLL • SCROLL • SCROLL •
@@ -56,12 +62,12 @@ const HomePage = () => {
               xmlns="http://www.w3.org/2000/svg"
               fill="none"
               viewBox="0 0 24 24"
-              stroke-width="2"
+              strokeWidth="2"
               stroke="white"
               className="w-3 h-3">
               <path
-                stroke-linecap="round"
-                stroke-linejoin="round"
+                strokeLinecap="round"
+                strokeLinejoin="round"
                 d="M19 9l-7 7-7-7"
               />
             </svg>
@@ -210,18 +216,18 @@ const HomePage = () => {
               <path
                 d="M20.6591 16.7663L20.6591 7.01643L10.9092 7.01643"
                 stroke="white"
-                stroke-width="1.331"
-                stroke-miterlimit="10"
-                stroke-linecap="round"
-                stroke-linejoin="round"
+                strokeWidth="1.331"
+                strokeMiterlimit="10"
+                strokeLinecap="round"
+                strokeLinejoin="round"
               />
               <path
                 d="M6.80181 20.4523L20.3184 6.93579"
                 stroke="white"
-                stroke-width="1.331"
-                stroke-miterlimit="10"
-                stroke-linecap="round"
-                stroke-linejoin="round"
+                strokeWidth="1.331"
+                strokeMiterlimit="10"
+                strokeLinecap="round"
+                strokeLinejoin="round"
               />
             </svg>
           </div>
